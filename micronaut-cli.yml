@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: connection.pool.timeout.issue
+---
+testFramework: spock
+sourceLanguage: groovy

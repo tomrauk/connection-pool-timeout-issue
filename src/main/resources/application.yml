@@ -1,0 +1,8 @@
+micronaut:
+    application:
+        name: connection-pool-timeout-issue
+    http:
+        client:
+            read-timeout: 500ms
+            pool:
+                enabled: true
