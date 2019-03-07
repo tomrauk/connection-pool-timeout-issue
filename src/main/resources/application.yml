@@ -3,6 +3,8 @@ micronaut:
         name: connection-pool-timeout-issue
     http:
         client:
-            read-timeout: 500ms
+            read-timeout: 5s
             pool:
                 enabled: true
+                max-connections: 1
+                acquire-timeout: 100ms
